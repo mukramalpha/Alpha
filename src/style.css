@@ -1,0 +1,59 @@
+ /*--logo---*/
+ .navbar img{
+    width:40px;
+    height:40px;
+    border-radius:50%;
+    box-shadow:0 0 10px rgb(226, 223, 223);
+    margin-right:5px;
+    margin-left:10px;
+    }
+    .img-test{
+        color:rgb(238, 238, 233)) !important;
+         border:2px solid transparent;
+         border-radius:50%;
+         animation:grow-icon-logo 0.8s infinite linear;
+
+     }
+     @keyframes grow-icon-logo{
+         0%,100%{
+             transform: scale(1,1);
+         }
+         50%{
+             transform: scale(1.07,1.07);
+             box-shadow: 0 0 10px rgb(20, 20, 20);
+             border:3px dotted rgb(23, 24, 24);
+         }
+     }
+     .maintxt {
+        background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url(/public/images/banner3.png);
+        background-size: cover;
+        height: 100vh;
+       
+        
+    }
+     
+
+     /*Footer*/
+     .footer{
+        position:absolute;
+        bottom:0;
+        width: 100%;
+        height: 50px;
+        background-color:rgb(24, 24, 26);
+        text-align: center;
+        color: white;
+     }
+
+    .inner{
+        overflow: hidden;
+    }
+    .inner img{
+        transition: all 1.5s ease;
+    }
+    .inner:hover img{
+        transform: scale(1.5);
+    }
+    .gallery{
+        width: 300px;
+      height: 200px;
+    }
