@@ -1,4 +1,5 @@
- /*--logo---*/
+
+/*--logo---*/
  .navbar img{
     width:40px;
     height:40px;
@@ -24,12 +25,15 @@
              border:3px dotted rgb(23, 24, 24);
          }
      }
-     .maintxt {
-        background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url(/public/images/banner3.png);
-        background-size: cover;
+    
+    .fullscreen-landing{
+        background:white url("/public/images/banner.jpg") no-repeat scroll center;
         height: 100vh;
-       
-        
+        background-size: cover;
+    }
+    .overlay{
+        background-color: rgba(0,0,0,0.5);
+        height:100%;
     }
      
 
