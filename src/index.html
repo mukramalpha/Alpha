@@ -25,38 +25,38 @@
           <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="navbar-nav me-auto mb-2 mb-lg-0 d-flex">
               <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="#">Home</a>
+                <a class="nav-link active" aria-current="page" href="#"><i class="fa-solid fa-house fa-beat-fade p-2"></i></i>Home</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">About Us</a>
+                <a class="nav-link" href="#"><i class="fa-solid fa-book fa-beat-fade p-2"></i>About Us</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">Clients</a>
+                <a class="nav-link" href="#"><i class="fa-solid fa-globe fa-beat-fade p-2"></i>Clients</a>
               </li>
               <li class="nav-item dropdown">
                 <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                  Services
+                  <i class="fa-solid fa-briefcase fa-beat-fade p-2"></i> Services
                 </a>
                 <ul class="dropdown-menu"style="background-color: #f1e392;" >
-                  <li><a class="dropdown-item" href="#"><i class="fa-solid fa-desktop p-2 text-success"></i>Web Development</a></li>
-                  <li><a class="dropdown-item" href="#"><i class="fa-solid fa-mobile-screen-button p-2 text-success"></i>Mobile Apps</a></li>
-                  <li><a class="dropdown-item" href="#"><i class="fa-solid fa-cart-plus p-2 text-success"></i>E-Commerce Website</a></li>
-                  <li><a class="dropdown-item" href="#"><i class="fa-solid fa-palette p-2 text-success"></i>Logo & Web Design</a></li>
-                  <li><a class="dropdown-item" href="#"><i class="fa-brands fa-digital-ocean p-2 text-success"></i>Digital Marketing Services</a></li>
+                  <li><a class="dropdown-item" href="#"><i class="fa-solid fa-desktop p-2 text-success animate__animated animate__backInLeft"></i>Web Development</a></li>
+                  <li><a class="dropdown-item" href="#"><i class="fa-solid fa-mobile-screen-button  p-2 text-success animate__animated animate__backInLeft"></i>Mobile Apps</a></li>
+                  <li><a class="dropdown-item" href="#"><i class="fa-solid fa-cart-plus  p-2 text-success animate__animated animate__backInLeft"></i>E-Commerce Website</a></li>
+                  <li><a class="dropdown-item" href="#"><i class="fa-solid fa-palette  p-2 text-success animate__animated animate__backInLeft"></i>Logo & Web Design</a></li>
+                  <li><a class="dropdown-item" href="#"><i class="fa-brands fa-digital-ocean  p-2 text-success animate__animated animate__backInLeft"></i>Digital Marketing Services</a></li>
                 </ul>
               </li>
 
               <li class="nav-item">
-                <a class="nav-link" href="#">Gallery</a>
+                <a class="nav-link" href="#"><i class="fa-solid fa-image fa-beat-fade p-2"></i>Gallery</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">Blog</a>
+                <a class="nav-link" href="#"><i class="fa-solid fa-envelope fa-beat-fade p-2"></i>Blog</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">Contact</a>
+                <a class="nav-link" href="#"><i class="fa-solid fa-phone fa-beat-fade p-2"></i>Contact</a>
               </li>
             </ul>
-            <i class="bi bi-search"></i>
+            
           </div>
         </div>
       </nav>
@@ -69,13 +69,79 @@
                 <h5 class="display-4 animate__animated animate__zoomIn delay-4s  text-warning fw-bold">Driving Business To The Next Level</h5>
                 <p class="lead animate__animated animate__flash delay-5s text-light">Digital Marketing Agency that fulfills All Yours Marketing Needs.</p>
                 <div>
-                  <button class="btn btn-outline-warning fw-bold text-white animate__animated animate__backInUp">Schedule a Call</button>
-                <button class="btn btn-outline-warning fw-bold text-white animate__animated animate__backInUp">Get My Free Quote</button>
+                  
+                  <!--modal-->
+                  <button type="button" class="btn btn-outline-warning fw-bold text-white animate__animated animate__backInUp" data-bs-toggle="modal" data-bs-target="#exampleModal">Schedule a Call</button>
+                 <button class="btn btn-outline-warning fw-bold text-white animate__animated animate__backInUp" data-bs-toggle="modal" data-bs-target="#exampleModal1">Get My Free Quote</button>
                 </div>
             </div>
         </div>
     </section>
 
+    <!--modal Schedule-->
+    
+    
+    <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header bg-light">
+            <h1 class="modal-title fs-5 text-info" id="exampleModalLabel">SCHEDULE A CALL</h1>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+          </div>
+          <div class="modal-body">
+            <form>
+              <div class="mb-3">
+                <label for="name" class="form-label">Name:</label>
+                <input type="text" class="form-control" id="name">
+              </div>
+              <div class="mb-3">
+                <label for="email" class="form-label">Email:</label>
+                <input type="email" class="form-control" id="email">
+              </div>
+              <div class="mb-3">
+                <label for="phone" class="form-label">Phone Number:</label>
+                <input type="text" class="form-control" id="phone">
+              </div>
+            </form>
+          </div>
+          <div class="modal-footer bg-light">
+            <button type="button" class="btn btn-danger" data-bs-dismiss="modal">Close</button>
+            <button type="button" class="btn btn-info">Send Request</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!--modal Schedule-->
+    
+    
+    <div class="modal fade" id="exampleModal1" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header bg-light">
+            <h1 class="modal-title fs-5 text-success" id="exampleModalLabel">GET MY FREE QUOTE!</h1>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+          </div>
+          <div class="modal-body">
+            <form>
+              
+              <div class="mb-3">
+                <label for="email" class="form-label">Email:</label>
+                <input type="email" class="form-control" id="email">
+              </div>
+              <div class="mb-3">
+                <label for="phone" class="form-label">Phone Number:</label>
+                <input type="text" class="form-control" id="phone">
+              </div>
+            </form>
+          </div>
+          <div class="modal-footer bg-light">
+            <button type="button" class="btn btn-danger" data-bs-dismiss="modal">Close</button>
+            <button type="button" class="btn btn-success">Get My Free Quote</button>
+          </div>
+        </div>
+      </div>
+    </div>
      <!--Services-->
      
       <section id="feature" class="p-4  text-center">
@@ -130,32 +196,32 @@
         <div class="accordion accordion-flush" id="accordionFlushExample">
           <div class="accordion-item">
             <h2 class="accordion-header">
-              <button class="accordion-button collapsed bg-info text-white fw-bold" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
+              <button class="accordion-button collapsed bg-dark text-white fw-bold" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
                 WHY US ?
               </button>
             </h2>
             <div id="flush-collapseOne" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
-              <div class="accordion-body bg-dark text-white">People across the globe reach us to build their brands. We offer the best-in online marketing services that help you reach your business goals</div>
+              <div class="accordion-body bg-white text-dark">People across the globe reach us to build their brands. We offer the best-in online marketing services that help you reach your business goals</div>
             </div>
           </div>
           <div class="accordion-item">
             <h2 class="accordion-header">
-              <button class="accordion-button collapsed bg-danger text-white fw-bold" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
+              <button class="accordion-button collapsed bg-dark text-white fw-bold" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
                QUALITY WORK
               </button>
             </h2>
             <div id="flush-collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
-              <div class="accordion-body bg-dark text-white">At our software company, quality work is the cornerstone of our ethos. We meticulously craft each line of code, ensuring robustness and efficiency. Our commitment to excellence permeates every aspect of our development process, delivering products that exceed expectations and stand the test of time.</div>
+              <div class="accordion-body bg-white text-dark">At our software company, quality work is the cornerstone of our ethos. We meticulously craft each line of code, ensuring robustness and efficiency. Our commitment to excellence permeates every aspect of our development process, delivering products that exceed expectations and stand the test of time.</div>
             </div>
           </div>
           <div class="accordion-item">
             <h2 class="accordion-header">
-              <button class="accordion-button collapsed bg-success text-white fw-bold" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseFour" aria-expanded="false" aria-controls="flush-collapseTwo">
+              <button class="accordion-button collapsed bg-dark text-white fw-bold" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseFour" aria-expanded="false" aria-controls="flush-collapseTwo">
                TOP RATED
               </button>
             </h2>
             <div id="flush-collapseFour" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
-              <div class="accordion-body bg-dark text-white">Our software company has earned a reputation as a top-rated industry leader, recognized for consistently delivering exceptional solutions that exceed client expectations.
+              <div class="accordion-body bg-white text-dark">Our software company has earned a reputation as a top-rated industry leader, recognized for consistently delivering exceptional solutions that exceed client expectations.
                 With a track record of success and glowing testimonials from satisfied clients, our software company stands as a top-rated provider in the competitive tech landscape.
                 Industry accolades and high customer ratings affirm our software company's position as a top choice for businesses seeking reliable and innovative software solutions.
                 Our commitment to excellence has propelled us to the top of industry rankings, solidifying our position as a top-rated software company known for reliability, quality, and customer satisfaction.
@@ -166,12 +232,12 @@
           </div>
           <div class="accordion-item">
             <h2 class="accordion-header">
-              <button class="accordion-button collapsed bg-warning text-white fw-bold" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseThree" aria-expanded="false" aria-controls="flush-collapseThree">
+              <button class="accordion-button collapsed bg-dark text-white fw-bold" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseThree" aria-expanded="false" aria-controls="flush-collapseThree">
                 EXPERT TEAM
               </button>
             </h2>
             <div id="flush-collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
-              <div class="accordion-body bg-dark text-white">Our software company boasts an expert team of seasoned professionals, each with a diverse skill set and a passion for innovation.
+              <div class="accordion-body bg-white text-dark">Our software company boasts an expert team of seasoned professionals, each with a diverse skill set and a passion for innovation.
                 With years of collective experience in the industry, our team brings unparalleled expertise to every project we undertake.
                 From software architects to skilled developers and quality assurance specialists, our team comprises top talent dedicated to delivering cutting-edge solutions.
                 Our software company prides itself on fostering a culture of continuous learning and development, ensuring our team remains at the forefront of technological advancements.
