@@ -1,0 +1,504 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Alpha Tech Solutions</title>
+    <link rel="icon" href="/public/images/alpha_logo.jpeg" type="image/x-icon" />
+    <link rel="stylesheet" href="/node_modules/bootstrap-icons/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="/node_modules/bootstrap/dist/css/bootstrap.css">
+    <link rel="stylesheet" href="style.css"/>
+    <link rel="stylesheet" href="/node_modules/animate.css/animate.css"/>
+    <link rel="stylesheet" href="/node_modules/@fortawesome/fontawesome-free/css/all.css">
+</head>
+<body>
+ 
+  <!--navbar Section-->
+  
+    <nav class="navbar navbar-expand-lg sticky-top" style="background-color: #f1e392;">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#"><img src="/public/images/alpha_logo.jpeg" alt="alpha logo" width="35" height="30" class="d-inline-block align-text-top img-test"> Alpha Tech Solutions</a>
+          
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0 d-flex">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#"><i class="fa-solid fa-house fa-beat-fade p-2"></i></i>Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#"><i class="fa-solid fa-book fa-beat-fade p-2"></i>About Us</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#"><i class="fa-solid fa-globe fa-beat-fade p-2"></i>Clients</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  <i class="fa-solid fa-briefcase fa-beat-fade p-2"></i> Services
+                </a>
+                <ul class="dropdown-menu"style="background-color: #f1e392;" >
+                  <li><a class="dropdown-item" href="#"><i class="fa-solid fa-desktop p-2 text-success animate__animated animate__backInLeft"></i>Web Development</a></li>
+                  <li><a class="dropdown-item" href="#"><i class="fa-solid fa-mobile-screen-button  p-2 text-success animate__animated animate__backInLeft"></i>Mobile Apps</a></li>
+                  <li><a class="dropdown-item" href="#"><i class="fa-solid fa-cart-plus  p-2 text-success animate__animated animate__backInLeft"></i>E-Commerce Website</a></li>
+                  <li><a class="dropdown-item" href="#"><i class="fa-solid fa-palette  p-2 text-success animate__animated animate__backInLeft"></i>Logo & Web Design</a></li>
+                  <li><a class="dropdown-item" href="#"><i class="fa-brands fa-digital-ocean  p-2 text-success animate__animated animate__backInLeft"></i>Digital Marketing Services</a></li>
+                </ul>
+              </li>
+
+              <li class="nav-item">
+                <a class="nav-link" href="#"><i class="fa-solid fa-image fa-beat-fade p-2"></i>Gallery</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#"><i class="fa-solid fa-envelope fa-beat-fade p-2"></i>Blog</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#"><i class="fa-solid fa-phone fa-beat-fade p-2"></i>Contact</a>
+              </li>
+            </ul>
+            
+          </div>
+        </div>
+      </nav>
+    
+
+       <!--Fullscreen Landing Section-->
+       <section class="fullscreen-landing">
+        <div class="overlay">
+            <div class="text-white d-flex flex-column justify-content-center align-items-center h-100">
+                <h5 class="display-4 animate__animated animate__zoomIn delay-4s  text-warning fw-bold">Driving Business To The Next Level</h5>
+                <p class="lead animate__animated animate__flash delay-5s text-light">Digital Marketing Agency that fulfills All Yours Marketing Needs.</p>
+                <div>
+                  
+                  <!--modal-->
+                  <button type="button" class="btn btn-outline-warning fw-bold text-white animate__animated animate__backInUp" data-bs-toggle="modal" data-bs-target="#exampleModal">Schedule a Call</button>
+                 <button class="btn btn-outline-warning fw-bold text-white animate__animated animate__backInUp" data-bs-toggle="modal" data-bs-target="#exampleModal1">Get My Free Quote</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!--modal Schedule-->
+    
+    
+    <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header bg-light">
+            <h1 class="modal-title fs-5 text-info" id="exampleModalLabel">SCHEDULE A CALL</h1>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+          </div>
+          <div class="modal-body">
+            <form>
+              <div class="mb-3">
+                <label for="name" class="form-label">Name:</label>
+                <input type="text" class="form-control" id="name">
+              </div>
+              <div class="mb-3">
+                <label for="email" class="form-label">Email:</label>
+                <input type="email" class="form-control" id="email">
+              </div>
+              <div class="mb-3">
+                <label for="phone" class="form-label">Phone Number:</label>
+                <input type="text" class="form-control" id="phone">
+              </div>
+            </form>
+          </div>
+          <div class="modal-footer bg-light">
+            <button type="button" class="btn btn-danger" data-bs-dismiss="modal">Close</button>
+            <button type="button" class="btn btn-info">Send Request</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!--modal Schedule-->
+    
+    
+    <div class="modal fade" id="exampleModal1" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header bg-light">
+            <h1 class="modal-title fs-5 text-success" id="exampleModalLabel">GET MY FREE QUOTE!</h1>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+          </div>
+          <div class="modal-body">
+            <form>
+              
+              <div class="mb-3">
+                <label for="email" class="form-label">Email:</label>
+                <input type="email" class="form-control" id="email">
+              </div>
+              <div class="mb-3">
+                <label for="phone" class="form-label">Phone Number:</label>
+                <input type="text" class="form-control" id="phone">
+              </div>
+            </form>
+          </div>
+          <div class="modal-footer bg-light">
+            <button type="button" class="btn btn-danger" data-bs-dismiss="modal">Close</button>
+            <button type="button" class="btn btn-success">Get My Free Quote</button>
+          </div>
+        </div>
+      </div>
+    </div>
+     <!--Services-->
+     
+      <section id="feature" class="p-4  text-center">
+          
+              <div class="row">
+                  <div class="col-md-4">
+                   
+                      <i class="fa fa-trophy fa-spin fa-4x  p-3 text-success"></i>
+                      <h2 class="font-weight-bold mt-2">Best Develop Softwares</h2>
+                      <p>Planning to build your online presence? And looking for the best enterprise that offers web development services , then no need to search more your search ends here with Alpha Tech. We are experienced in successfully building web and mobile applications for business. #1 website development company in Hyderabad.</p>
+                  </div>
+                  <div class="col-md-4">
+                      <i class="fa-solid fa-layer-group fa-spin fa-4x  p-3 text-primary"></i>
+                      <h2 class="font-weight-bold mt-2">Best Digital Marketing Agency</h2>
+                      <p>We provide integrated digital marketing services in Hyderabad driving the best results in promoting your brand with innovative and strategic benchmarks across the field of digital marketing.</p>
+                  </div>
+                  <div class="col-md-4">
+                      <i class="fa fa-mobile fa-spin fa-4x p-3 text-warning"></i>
+                      <h2 class="font-weight-bold mt-2">Best Mobile Apps </h2>
+                      <p>Alpha Tech brings digital experience to life through a consolidated approach to design and development. We ensure that our outstanding mobile app development services for all mobile platforms deliver the right value to the customers.We ensure that our services help in the enhancement of business and increase customer engagement. </p>
+                  </div>
+              </div>
+          
+      </section>
+      
+      <section class="p-4 yellow text-dark text-center">
+          
+              <div class="row">
+                  <div class="col">
+                      <h5 class="display-4 animate__animated animate__backInLeft animate__infinite	infinite animate__slow	1s">We Build very <span class="text-primary">Innovative Websites</span> with Latest <span class="text-info">Technologies</span></h5>
+                      <p class="lead">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ducimus, alias quis reprehenderit hic temporibus debitis, ipsam minus ex velit sed modi at fugit error quaerat earum dignissimos quidem nam ea?</p>
+                  </div>
+              </div>
+          
+      </section>
+
+      <section class="bg-dark text-white">
+        <div class=" d-flex p-4 justify-content-between">
+              <a href="#">
+                <i class="fa-brands fa-whatsapp fa-4x p-3 text-success animate__animated animate__fadeInRight"></i>
+              </a>
+              <p class="lead h2 text-center p-4 text-info">READY TO GET STARTED?<br><br>
+                Reach us and get a perfect digital marketing plan for your business.</p>
+               <button type="button" class="btn btn-outline-info p-4 h1 fw-bold  rounded-5 animate__animated animate__fadeInLeft">+91-6305867024</button>
+          
+        </div>
+      </section>
+       
+
+       <!--accordian section-->
+       <section>
+        <div class="accordion accordion-flush" id="accordionFlushExample">
+          <div class="accordion-item">
+            <h2 class="accordion-header">
+              <button class="accordion-button collapsed bg-dark text-white fw-bold" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
+                WHY US ?
+              </button>
+            </h2>
+            <div id="flush-collapseOne" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+              <div class="accordion-body bg-white text-dark">People across the globe reach us to build their brands. We offer the best-in online marketing services that help you reach your business goals</div>
+            </div>
+          </div>
+          <div class="accordion-item">
+            <h2 class="accordion-header">
+              <button class="accordion-button collapsed bg-dark text-white fw-bold" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
+               QUALITY WORK
+              </button>
+            </h2>
+            <div id="flush-collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+              <div class="accordion-body bg-white text-dark">At our software company, quality work is the cornerstone of our ethos. We meticulously craft each line of code, ensuring robustness and efficiency. Our commitment to excellence permeates every aspect of our development process, delivering products that exceed expectations and stand the test of time.</div>
+            </div>
+          </div>
+          <div class="accordion-item">
+            <h2 class="accordion-header">
+              <button class="accordion-button collapsed bg-dark text-white fw-bold" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseFour" aria-expanded="false" aria-controls="flush-collapseTwo">
+               TOP RATED
+              </button>
+            </h2>
+            <div id="flush-collapseFour" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+              <div class="accordion-body bg-white text-dark">Our software company has earned a reputation as a top-rated industry leader, recognized for consistently delivering exceptional solutions that exceed client expectations.
+                With a track record of success and glowing testimonials from satisfied clients, our software company stands as a top-rated provider in the competitive tech landscape.
+                Industry accolades and high customer ratings affirm our software company's position as a top choice for businesses seeking reliable and innovative software solutions.
+                Our commitment to excellence has propelled us to the top of industry rankings, solidifying our position as a top-rated software company known for reliability, quality, and customer satisfaction.
+                Being top-rated isn't just a label for us; it's a reflection of the unwavering dedication of our team to deliver unparalleled software solutions that set the standard for excellence in the industry.
+                
+              </div>
+            </div>
+          </div>
+          <div class="accordion-item">
+            <h2 class="accordion-header">
+              <button class="accordion-button collapsed bg-dark text-white fw-bold" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseThree" aria-expanded="false" aria-controls="flush-collapseThree">
+                EXPERT TEAM
+              </button>
+            </h2>
+            <div id="flush-collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+              <div class="accordion-body bg-white text-dark">Our software company boasts an expert team of seasoned professionals, each with a diverse skill set and a passion for innovation.
+                With years of collective experience in the industry, our team brings unparalleled expertise to every project we undertake.
+                From software architects to skilled developers and quality assurance specialists, our team comprises top talent dedicated to delivering cutting-edge solutions.
+                Our software company prides itself on fostering a culture of continuous learning and development, ensuring our team remains at the forefront of technological advancements.
+                Clients trust our expert team to navigate complex challenges, leveraging their deep understanding of software development methodologies and best practices to deliver superior results.
+                </div>
+            </div>
+          </div>
+        </div>
+      </section>
+     
+      <!--video section-->
+      <section>
+        <div class="row p-4 mt-2">
+         <div class="col">
+            <h4 class="text-success">WHY EVERY BUSINESS NEEDS DIGITAL MARKETING</h4>
+            <p class="lead">Got a service or product? Don’t know how to market? No worries, SanBrains – the best Digital Marketing company in Hyderabad provides you with all the services to reach your target audience & grow your business.</p>
+            <br>
+            <h4 class="text-success">WHY YOU NEED DIGITAL MARKETING?</h4>
+            <p class="lead">The world is evolving Digitally and Internet has become quite famous among everyone. The traditional ways of marketing have become boring and with the increase of active users of social media and the internet, there is a need to make changes in the way you market things. Digital marketing is the new go, whether you need to market any product or sell anything, you need to know about Digital marketing. Digital marketing is an efficient and effective way to showcase your brand or product while increasing sales in the market without having to waste your valuable time or money.</p>
+         </div>
+         <div class="col mt-5">
+           <div class="embed-responsive embed-responsive-16by9">
+            <iframe class="embed-responsive-item " width="560" height="315" src="https://www.youtube.com/embed/AMVqG8yFyLI?si=9TxV0C8YA5T-LmS2" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+             
+           </div>
+         </div>
+        </div>
+       </section>
+       <section>
+        <div class="row p-4 mt-2">
+          <div class="col mt-5">
+             <div class="embed-responsive embed-responsive-16by9">
+              <iframe class="embed-responsive-item" width="560" height="315" src="https://www.youtube.com/embed/_scNQ5MDbtk?si=Xk6Jphivv8KXDAgT" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+             </div>
+          </div>
+          <div class="col">
+            <h4 class="text-warning">WHY EVERY BUSINESS NEEDS DIGITAL MARKETING</h4>
+            <p class="lead">Got a service or product? Don’t know how to market? No worries, SanBrains – the best Digital Marketing company in Hyderabad provides you with all the services to reach your target audience & grow your business.</p>
+            <br>
+            <h4 class="text-warning">WHY YOU NEED DIGITAL MARKETING?</h4>
+            <p class="lead">The world is evolving Digitally and Internet has become quite famous among everyone. The traditional ways of marketing have become boring and with the increase of active users of social media and the internet, there is a need to make changes in the way you market things. Digital marketing is the new go, whether you need to market any product or sell anything, you need to know about Digital marketing. Digital marketing is an efficient and effective way to showcase your brand or product while increasing sales in the market without having to waste your valuable time or money.</p>
+         </div>
+        </div>
+       </section>
+       
+
+      <section>
+        <div class="row ">
+           <h1 class=" p-4 text-decoration-underline text-success text-center">OUR <span class="text-warning">SERVICES</span></h1>
+           <p class="lead text-center">What You Get Using Our SEO Company’s Help?</p>
+          <div class="col-md-4">
+            <div>
+              <img src="/public/images/iphone_green.png" class="img-fluid">
+            </div>
+          </div>
+          <div class="col-md-8">
+            <div class="row p-4">
+               <div class="col-md-6">
+                <h4 class="text-success"><i class="fa-brands fa-searchengin fa-2x p-2 text-success "></i>SEO SERVICES</h4>
+                 <p> Outrank your competitors with our tried, tested, and proven search engine optimization tactics. <span class="btn btn-link text-success text-decoration-none">READ MORE >></span></p>
+               </div>
+               <div class="col-md-6">
+                <h4 class="text-success"><i class="fa-solid fa-palette fa-2x p-2 text-success"></i>SMM SERVICES</h4>
+                 <p>Connect with your audience, engage, and build your brand through our advanced social media marketing techniques. <span class="btn btn-link text-success text-decoration-none">READ MORE >></span></p>
+               </div>
+            </div>
+            <div class="row p-4">
+              <div class="col-md-6">
+                <h4 class="text-success"><i class="fa-brands fa-shopify fa-2x p-2 text-success"></i>SEM/PPC</h4>
+                 <p> The concept of search engine marketing will help you drive instant leads or sales through paid advertising. <span class="btn btn-link text-success text-decoration-none">READ MORE >></span></p>
+               </div>
+               <div class="col-md-6">
+                <h4 class="text-success"><i class="fa-solid fa-pencil fa-2x p-2 text-success"></i>LOGO AND WEB DESIGN</h4>
+                 <p> We imagine, design, and build your brand identity with creative logo and attractive web design.  <span class="btn btn-link text-success text-decoration-none">READ MORE >></span></p>
+               </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section>
+        <div class=" p-4 mx-4 text-center">
+          <h1 class="text-decoration-underline">FREE SEO AUDIT, REPORT OF YOUR WEBSITE</h1>
+          <p class="lead p-2">Our SEO company in Hyderabad reaches your site to scan and check on-page, off-page, social engagement, domain authority, keyword optimization, site loading time, meta tags optimization, rich markups, social media optimization, and all other SEO services to build an optimized and user-friendly website.</p>
+          <button type="button" class="btn btn-success">SEND REQUEST NOW !</button>
+        </div>
+      </section>
+
+     
+
+      <!--Card Section-->
+      <section class="mt-2 p-4 my-2">
+        <div class="row ">
+          <div class="col">
+            <div class="card shadow-lg">
+              <div class="inner">
+                <img src="/public/images/card6.jpg" class="card-img-top img-fluid" alt="...">
+              </div>
+              <div class="card-body">
+                <h5 class="card-title">Websites Development</h5>
+                <p class="card-text">We will help you to build your brand with high-end creative designs and websites.</p>
+                <button class="btn  btn-link text-danger text-decoration-none">READ MORE</button>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card shadow-lg">
+              <div class="inner">
+                <img src="/public/images/card2.jpeg" class="card-img-top img-fluid" alt="...">
+              </div>
+              <div class="card-body">
+                <h5 class="card-title">Digital Marketing</h5>
+                <p class="card-text">Our creative ideas will showcase in our work and you will experience it in your journey with us.</p>
+                <button class="btn  btn-link text-warning text-decoration-none">READ MORE</button>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card shadow-lg">
+              <div class="inner">
+                <img src="/public/images/card3.jpg" class="card-img-top img-fluid" alt="...">
+              </div>
+              <div class="card-body">
+                <h5 class="card-title">Moblie Apps</h5>
+                <p class="card-text">We will help you to build your brand with high-end creative designs and websites. </p>
+                <button class="btn  btn-link text-info text-decoration-none">READ MORE</button>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card shadow-lg">
+              <div class="inner">
+                <img src="/public/images/card7.jpg" class="card-img-top img-fluid" alt="...">
+              </div>
+              <div class="card-body">
+                <h5 class="card-title">AI & ML</h5>
+                <p class="card-text">Our creative ideas will showcase in our work and you will experience it in your journey with us.</p>
+                <button class="btn  btn-link text-primary text-decoration-none">READ MORE</button>
+              </div>
+            </div>
+          </div>
+        
+        </div>
+      </section>
+     
+
+      
+      <!--Client Section-->
+      <section class="p-5 bg-light" id="customers">
+        
+          <div class="row text-center">
+            <div class="col">
+              <h1>
+                <span class="text-warning">Our </span>
+                <span class="text-success">Happy </span>
+                <span class="text-primary">Clients </span>
+              </h1>
+            </div>
+          </div>
+          <div class="row mt-3">
+            <div class="col">
+              <div class="carousel slide" id="customer-carousel" data-bs-ride="carousel">
+               
+                <div class="carousel-inner">
+                <div class="carousel-item active" interval={2500}>
+                    <div class="row text-center">
+                      <div class="col-md-4 animate__animated animate__zoomIn delay-1s">
+                        <img src="/public/images/b1.jpg" alt="" class="img-fluid rounded-circle w-50">
+                        <h2>John wilson</h2>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolorum eaque facilis expedita qui voluptatibus debitis labore, tempore ea quisquam libero.</p>
+                      </div>
+                      <div class="col-md-4 animate__animated animate__zoomIn delay-2s">
+                        <img src="/public/images/b2.jpg" alt="" class="img-fluid rounded-circle w-50">
+                        <h2>John William</h2>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolorum eaque facilis expedita qui voluptatibus debitis labore, tempore ea quisquam libero.</p>
+                      </div>
+                      <div class="col-md-4 animate__animated animate__zoomIn delay-3s">
+                        <img src="/public/images/b3.jpg" alt="" class="img-fluid rounded-circle w-50">
+                        <h2>John smith</h2>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolorum eaque facilis expedita qui voluptatibus debitis labore, tempore ea quisquam libero.</p>
+                      </div>
+                    </div>
+                </div>
+                    <div class="carousel-item" interval={1500}>
+                    <div class="row text-center">
+                      <div class="col-md-4 animate__animated animate__zoomIn delay-1s">
+                        <img src="/public/images/card1.jpg" alt="" class="img-fluid rounded-circle w-50">
+                        <h2>John wilson</h2>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolorum eaque facilis expedita qui voluptatibus debitis labore, tempore ea quisquam libero.</p>
+                      </div>
+                      <div class="col-md-4 animate__animated animate__zoomIn delay-2s">
+                        <img src="/public/images/card2.jpeg" alt="" class="img-fluid rounded-circle w-50">
+                        <h2>John William</h2>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolorum eaque facilis expedita qui voluptatibus debitis labore, tempore ea quisquam libero.</p>
+                      </div>
+                      <div class="col-md-4 animate__animated animate__zoomIn delay-3s">
+                        <img src="/public/images/card3.jpg" alt="" class="img-fluid rounded-circle w-50">
+                        <h2>John smith</h2>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolorum eaque facilis expedita qui voluptatibus debitis labore, tempore ea quisquam libero.</p>
+                      </div>
+                    </div>
+                  </div>
+                    <div class="carousel-item" interval={2500}>
+                    <div class="row text-center">
+                      <div class="col-md-4 animate__animated animate__zoomIn delay-1s">
+                        <img src="/public/images/card4.jpg" alt="" class="img-fluid rounded-circle w-50">
+                        <h2>John wilson</h2>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolorum eaque facilis expedita qui voluptatibus debitis labore, tempore ea quisquam libero.</p>
+                      </div>
+                      <div class="col-md-4 animate__animated animate__zoomIn delay-2s">
+                        <img src="/public/images/card5.jpg" alt="" class="img-fluid rounded-circle w-50">
+                        <h2>John William</h2>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolorum eaque facilis expedita qui voluptatibus debitis labore, tempore ea quisquam libero.</p>
+                      </div>
+                      <div class="col-md-4 animate__animated animate__zoomIn delay-3s">
+                        <img src="/public/images/card6.jpg" alt="" class="img-fluid rounded-circle w-50">
+                        <h2>John smith</h2>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolorum eaque facilis expedita qui voluptatibus debitis labore, tempore ea quisquam libero.</p>
+                      </div>
+                    </div>
+                    </div>
+                  
+                
+                  </div>
+               
+              </div>
+            </div>
+          </div>
+       
+      </section>
+   
+      <!--Main Footer -->
+      <footer class="p-3 yellow">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-6">
+              <a href="#">About Us</a> | 
+              <a href="#">Contact Us</a> | 
+              <a href="#">Terms Of Use</a> | 
+              <a href="#">Privacy Policy</a> 
+              <h6>Copyrights &copy; 2024 ,Alpha Tech Solutions.</h6>
+              <h6>All Right Reserved.</h6>
+              <h6>Developed & Maintainted By <a href="https://thealphatech.co.in" class="text-success font-weight-bold text-decoration-none"><img src="/public/images/alpha_logo.jpeg" alt="" width="30" height="30">Alpha Tech Education.</a></span></h6>
+           </div>
+           <div class="col-md-6">
+            <i class="fab fa-facebook-square fa-4x m-3 text-primary"></i>
+            <i class="fab fa-youtube fa-4x m-3 text-danger"></i>
+            <i class="fab fa-twitter fa-4x m-3 text-info"></i>
+            <i class="fab fa-linkedin fa-4x m-3 text-secondary"></i>
+            <i class="fab fa-instagram fa-4x m-3 text-warning"></i>
+            
+           </div>
+          </div>
+        </div>
+
+      </footer>
+
+
+
+
+    <script src="/node_modules/jquery/dist/jquery.js"></script>
+    <script src="/node_modules/bootstrap/dist/js/bootstrap.bundle.js"></script>
+</body>
+</html>
